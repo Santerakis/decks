@@ -10,8 +10,8 @@ const initialState = {
     { id: 2, value: 'All Cards' },
   ],
   slider: {
-    minValue: 0,
-    maxValue: 10,
+    minValue: 10,
+    maxValue: 100,
   },
   paginationOptions: [
     { id: 1, value: 7 },
