@@ -84,7 +84,8 @@ export const MyPack = () => {
     setCardId(data!.id)
   }
   const setNewCurrentPage = (page: number) => {
-    dispatch(deckSlice.actions.setCurrentPageFriendsPack(page))
+    // dispatch(deckSlice.actions.setCurrentPageFriendsPack(page))
+    dispatch(deckSlice.actions.setCurrentPageMyPack(page))
   }
   const setNewPerPage = (value: number) => {
     dispatch(deckSlice.actions.setItemsMyPackPerPage(value))
